@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>✦ Neeksha's Apps</title>
+<style>
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400 900;font-display:swap;src:url('fonts/PlayfairDisplay-var-latin.woff2') format('woff2')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:100 1000;font-display:swap;src:url('fonts/DMSans-var-latin.woff2') format('woff2')}
+*{margin:0;padding:0;box-sizing:border-box}
+body{min-height:100vh;background:radial-gradient(ellipse at 30% 20%,#233028 0%,#161c18 55%,#0e120f 100%);color:#E2D5C4;font-family:'DM Sans',sans-serif;display:flex;flex-direction:column;align-items:center;padding:56px 20px 40px}
+.ey{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:#95D5B2;margin-bottom:12px}
+h1{font-family:'Playfair Display',serif;font-size:clamp(38px,9vw,64px);color:#F5EFE6;text-align:center;line-height:1.05;letter-spacing:-1px;margin-bottom:10px}
+h1 span{color:#E8A0A8}
+.sub{color:#7B8FA1;font-size:clamp(14px,3.5vw,16px);text-align:center;max-width:420px;line-height:1.6;margin-bottom:44px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,320px));gap:20px;justify-content:center;width:100%;max-width:700px}
+.card{display:flex;align-items:center;gap:16px;background:linear-gradient(155deg,#242c26,#1c2020);border:1px solid rgba(255,255,255,.07);border-radius:22px;padding:18px;text-decoration:none;color:inherit;transition:transform .15s,border-color .15s;box-shadow:0 12px 40px rgba(0,0,0,.35)}
+.card:hover{transform:translateY(-3px);border-color:rgba(232,160,168,.4)}
+.card img{width:72px;height:72px;border-radius:18px;display:block}
+.card .t{font-family:'Playfair Display',serif;font-size:20px;color:#F5EFE6;margin-bottom:3px}
+.card .d{font-size:13px;color:#7B8FA1;line-height:1.45}
+.card .go{margin-left:auto;color:#95D5B2;font-size:22px}
+.soon{opacity:.45;pointer-events:none}
+.soon .t{color:#B0C4D4}
+footer{margin-top:auto;padding-top:48px;color:#7B8FA1;font-size:14px;text-align:center}
+footer .kao{color:#C97B84;font-size:16px;margin-top:6px}
+</style>
+</head>
+<body>
+<p class="ey">✦ welcome to</p>
+<h1>Neeksha's <span>Apps</span></h1>
+<p class="sub">Little worlds made by an 8-year-old chef, artist, and app builder — with a bit of help from her dad.</p>
+<div class="grid">
+  <a class="card" href="/summer-bar/">
+    <img src="/summer-bar/icons/icon-192.png" alt="Summer Refreshment Bar icon">
+    <div>
+      <div class="t">Summer Refreshment Bar</div>
+      <div class="d">Mix make-believe summer drinks &amp; sip with kaomoji friends 🍹</div>
+    </div>
+    <div class="go">→</div>
+  </a>
+  <div class="card soon">
+    <div style="width:72px;height:72px;border-radius:18px;background:rgba(255,255,255,.05);display:flex;align-items:center;justify-content:center;font-size:34px">✦</div>
+    <div>
+      <div class="t">Something new…</div>
+      <div class="d">Neeksha's next idea is brewing!</div>
+    </div>
+  </div>
+</div>
+<footer>
+  made with love · no ads, no tracking, ever
+  <div class="kao">♪( ´∀｀)人(´∀｀ )♪ ～♥</div>
+</footer>
+</body>
+</html>
