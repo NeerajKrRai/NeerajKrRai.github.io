@@ -8,6 +8,27 @@ domain for every app beneath it.
 > `apps.neeksha.com` family is wired and how to add another app. Read it before
 > touching DNS, Pages, or `index.html`.
 
+## ⚠️ Don't repurpose this repo — it's the one-and-only user-site slot
+
+`NeerajKrRai.github.io` is the account's **user site** (GitHub gives you exactly
+one). It's special for a reason we depend on: a custom domain attached here
+(`apps.neeksha.com`) automatically serves the root **and** every other repo as
+a subpath (`apps.neeksha.com/summer-bar/`). That auto-nesting is the entire
+reason "add an app = new repo + a card here" works. **Keep this repo as the
+apps hub. Do not convert it into a personal homepage or a single app.**
+
+Intended account layout (keep it this way):
+
+| Purpose | Repo | URL |
+|---|---|---|
+| Kids' apps hub (this repo) | `NeerajKrRai.github.io` (user site) | `apps.neeksha.com` + `/‹app›/` |
+| Neeraj's personal site | `neeraj-personal-site` (project site) | its own custom domain, served at that domain's root |
+
+A user site and a project site can each carry their own custom domain, so the
+personal site and the apps hub coexist with zero conflict — they just use
+different domains. The only thing "spent" is the bare `neerajkrrai.github.io/`
+vanity root, which is moot when custom domains are in use.
+
 ## How the hosting works
 
 - **This repo** = the hub. Its `index.html` is the landing page ("Neeksha's
