@@ -61,10 +61,15 @@ vanity root, which is moot when custom domains are in use.
      hub repo only; a CNAME in an app repo would fight for the domain.
    - It's now live at `https://apps.neeksha.com/<repo-name>/` (give Pages a
      minute to build).
-3. **Add a card to this hub's `index.html`** — copy the block below, replacing
+3. **Give the app a way back to the hub.** Every app MUST have a visible home
+   link to `/` (e.g. a `🏠 Apps` chip), or visitors get stuck — there's no other
+   way out. Put it where it won't collide with the app's own chrome; on a tight
+   header, making the app's logo an `<a href="/">` works too. (Summer Bar,
+   OtakuChore and Kawaii Paint all do this.)
+4. **Add a card to this hub's `index.html`** — copy the block below, replacing
    the placeholder `.soon` card (or adding alongside it). Use the app's own
    192px icon path.
-4. **Commit + push this repo.** The landing page updates within a minute.
+5. **Commit + push this repo.** The landing page updates within a minute.
 
 ### Card template (paste into the `.grid` div in `index.html`)
 
